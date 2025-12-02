@@ -67,7 +67,9 @@ export default async function Home() {
                 Experienced Full Stack Developer with over 7 years of expertise
                 in Angular, Nest.js, React, Next.js, and Node.js, specializing
                 in building scalable, high-performance web applications and
-                APIs.
+                APIs. As a founder and co-founder of innovative tech startups, I
+                bring both technical expertise and entrepreneurial vision to
+                every project.
               </p>
               <p className="mb-4">
                 Proficient in crafting dynamic and responsive user interfaces
