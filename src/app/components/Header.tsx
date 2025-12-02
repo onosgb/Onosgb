@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface HeaderProps {
-  avatarUrl: string;
   githubUserName: string;
 }
 
-export default function Header({ avatarUrl, githubUserName }: HeaderProps) {
+export default function Header({ githubUserName }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -21,14 +21,12 @@ export default function Header({ avatarUrl, githubUserName }: HeaderProps) {
     <header className="fixed w-full bg-background/80 backdrop-blur-sm z-10 border-b border-black/10 dark:border-white/10">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <img
+          <Image
             src={imageSrc}
             alt="Profile"
             width={40}
             height={40}
             className="rounded-full"
-            loading="eager"
-            decoding="async"
             style={{
               display: "block",
               objectFit: "cover",

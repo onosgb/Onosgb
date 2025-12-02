@@ -79,8 +79,8 @@ ${message}
       { message: "Message sent successfully!" },
       { status: 200 }
     );
-  } catch (error) {
-    console.error("Error processing contact form:", error);
+  } catch (err) {
+    console.error("Error processing contact form:", err);
     return NextResponse.json(
       { error: "Failed to send message. Please try again." },
       { status: 500 }

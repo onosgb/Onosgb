@@ -20,10 +20,6 @@ async function getGithubProfileData() {
   }
 }
 
-const d = (data: any) => {
-  console.log("GitHub data: ", data);
-};
-
 export default async function Home() {
   const githubProfileData = await getGithubProfileData();
 
@@ -31,7 +27,6 @@ export default async function Home() {
     <div className="font-sans min-h-screen">
       {/* Header/Navigation */}
       <Header
-        avatarUrl="/avatar.png"
         githubUserName={githubProfileData?.login || openSource.githubUserName}
       />
 
@@ -39,7 +34,7 @@ export default async function Home() {
       <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Hi, I'm <span className="text-blue-500">GODBLESS</span>
+            Hi, I&apos;m <span className="text-blue-500">GODBLESS</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-black/70 dark:text-white/70 max-w-2xl">
             {githubProfileData.bio ||
@@ -320,8 +315,8 @@ export default async function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="mb-6">
-                I'm always open to new opportunities and collaborations. Feel
-                free to reach out!
+                I&apos;m always open to new opportunities and collaborations.
+                Feel free to reach out!
               </p>
               <div className="flex items-center gap-3 mb-4">
                 <svg
