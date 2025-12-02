@@ -40,6 +40,9 @@ export default function Header({ githubUserName }: HeaderProps) {
           <a href="#about" className="hover:text-blue-500 transition-colors">
             About
           </a>
+          <a href="#experience" className="hover:text-blue-500 transition-colors">
+            Experience
+          </a>
           <a href="#projects" className="hover:text-blue-500 transition-colors">
             Projects
           </a>
@@ -95,6 +98,13 @@ export default function Header({ githubUserName }: HeaderProps) {
             onClick={toggleMobileMenu}
           >
             About
+          </a>
+          <a
+            href="#experience"
+            className="hover:text-blue-500 transition-colors py-2"
+            onClick={toggleMobileMenu}
+          >
+            Experience
           </a>
           <a
             href="#projects"

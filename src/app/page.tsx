@@ -113,11 +113,302 @@ export default async function Home() {
                   Redux/NGRX
                 </div>
                 <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
-                  REST APIs
+                  RxJS
                 </div>
                 <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
-                  GraphQL
+                  MongoDB
                 </div>
+                <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
+                  PostgreSQL
+                </div>
+                <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
+                  MySQL
+                </div>
+                <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
+                  Stripe
+                </div>
+                <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
+                  Flutterwave
+                </div>
+                <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
+                  AWS S3
+                </div>
+                <div className="bg-background p-3 rounded border border-black/10 dark:border-white/10">
+                  Ionic
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section id="experience" className="py-16 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold mb-8">Experience</h2>
+          <div className="space-y-8">
+            {/* All Prime Access Experience */}
+            <div className="border-l-4 border-blue-500 pl-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <div>
+                  <h3 className="text-xl font-semibold">Frontend Lead</h3>
+                  <p className="text-blue-500 font-medium">All Prime Access</p>
+                </div>
+                <span className="text-black/70 dark:text-white/70 text-sm mt-1 md:mt-0">
+                  Feb 2025 – Present
+                </span>
+              </div>
+              <p className="text-black/70 dark:text-white/70 mb-3">Full-time</p>
+              <ul className="list-disc list-inside space-y-2 text-black/70 dark:text-white/70">
+                <li>
+                  Leading frontend development for FireHub, an AI-powered safety
+                  management platform
+                </li>
+                <li>
+                  Architecting and implementing scalable Angular applications
+                  with focus on safety and security features
+                </li>
+                <li>
+                  Collaborating with cross-functional teams to integrate AI
+                  capabilities into the safety platform
+                </li>
+                <li>
+                  Mentoring and guiding frontend developers, ensuring code
+                  quality and best practices
+                </li>
+                <li>
+                  Implementing responsive designs and optimizing application
+                  performance
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Angular
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  TypeScript
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  AI Integration
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Bootstrap
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  NGRX/Signal Store
+                </span>
+              </div>
+            </div>
+
+            {/* Theywood Experience */}
+            <div className="border-l-4 border-blue-500 pl-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Full Stack Developer (Contract)
+                  </h3>
+                  <p className="text-blue-500 font-medium">Theywood</p>
+                </div>
+                <span className="text-black/70 dark:text-white/70 text-sm mt-1 md:mt-0">
+                  Jan 2025 – Oct 2025
+                </span>
+              </div>
+              <p className="text-black/70 dark:text-white/70 mb-3">
+                Remote USA
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-black/70 dark:text-white/70">
+                <li>
+                  Designed and developed OptimaConnect, a robust data
+                  synchronization and analysis platform enabling seamless
+                  transfer of law firm data from Lawcus to cloud services
+                </li>
+                <li>
+                  Implemented flexible subscription management system with
+                  Stripe integration, supporting various plans with annual and
+                  monthly billing cycles
+                </li>
+                <li>
+                  Utilized Nest.js, Prisma, and MongoDB for scalable backend
+                  development
+                </li>
+                <li>
+                  Developed responsive interfaces with Next.js and Tailwind CSS
+                </li>
+                <li>
+                  Implemented CI/CD pipelines using GitHub Actions and Docker,
+                  reducing deployment errors by 40%
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Nest.js
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Prisma
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  MongoDB
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Stripe
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  AWS S3
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Next.js
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Tailwind
+                </span>
+              </div>
+            </div>
+
+            {/* Primed E-Health Experience */}
+            <div className="border-l-4 border-blue-500 pl-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Angular Developer (Contract)
+                  </h3>
+                  <p className="text-blue-500 font-medium">Primed E-Health</p>
+                </div>
+                <span className="text-black/70 dark:text-white/70 text-sm mt-1 md:mt-0">
+                  Oct. 2023 – May 2024
+                </span>
+              </div>
+              <p className="text-black/70 dark:text-white/70 mb-3">
+                Remote Lagos
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-black/70 dark:text-white/70">
+                <li>
+                  Revamped system by cleaning legacy code and enhancing user
+                  management module with Angular Signals
+                </li>
+                <li>
+                  Optimized memory management using RxJS, enhancing application
+                  performance by 20%
+                </li>
+                <li>
+                  Increased application load speed by 25% using lazy-loading and
+                  module splitting
+                </li>
+                <li>
+                  Built pixel-perfect UI from Figma designs using Angular, SCSS,
+                  and Tailwind
+                </li>
+                <li>
+                  Used Take Until Destroyed when fetching to avoid memory leaks
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Angular
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Angular Signals
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  NGRX
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  RxJS
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Tailwind
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  SCSS
+                </span>
+              </div>
+            </div>
+
+            {/* M-R International Experience */}
+            <div className="border-l-4 border-blue-500 pl-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Full Stack Developer
+                  </h3>
+                  <p className="text-blue-500 font-medium">
+                    M-R International (MRsoft)
+                  </p>
+                </div>
+                <span className="text-black/70 dark:text-white/70 text-sm mt-1 md:mt-0">
+                  Nov 2018 – Feb 2025
+                </span>
+              </div>
+              <p className="text-black/70 dark:text-white/70 mb-3">
+                Remote Port Harcourt
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-black/70 dark:text-white/70">
+                <li>
+                  Led development and deployment of enterprise-level web
+                  applications using Angular, Node.js, and Nest.js
+                </li>
+                <li>
+                  Designed scalable REST APIs with Nest.js, reducing server
+                  response times by 30%
+                </li>
+                <li>
+                  Supervised a team of 4 developers, leading successful creation
+                  of an online learning management system
+                </li>
+                <li>
+                  Implemented reusable components and libraries, ensuring
+                  scalability across multiple projects
+                </li>
+                <li>
+                  Implemented reusable payment library with Flutterwave payment
+                  gateway
+                </li>
+                <li>
+                  Increased application load speed by 25% using lazy-loading and
+                  module splitting
+                </li>
+              </ul>
+              <div className="mt-4 p-3 bg-green-50 dark:bg-green-900/20 rounded border border-green-200 dark:border-green-800">
+                <p className="text-sm font-semibold text-green-800 dark:text-green-200 mb-2">
+                  Key Achievements:
+                </p>
+                <ul className="list-disc list-inside space-y-1 text-sm text-green-700 dark:text-green-300">
+                  <li>
+                    Promoted from Junior to Mid developer within 8 months with
+                    80% salary increment
+                  </li>
+                  <li>Started mentoring Junior developers by 10th month</li>
+                  <li>
+                    Led a team of 4 developers to build an online learning
+                    management system
+                  </li>
+                  <li>Promoted to Senior developer after 3 years</li>
+                </ul>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Angular
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  React
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Next.js
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Nest.js
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Node.js
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  MongoDB
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  MySQL
+                </span>
+                <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                  Flutterwave
+                </span>
               </div>
             </div>
           </div>
@@ -129,6 +420,53 @@ export default async function Home() {
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold mb-8">My Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
+            {/* FireHub Project */}
+            <div className="border border-black/10 dark:border-white/10 rounded-lg overflow-hidden">
+              <div className="h-48 bg-gray-200 dark:bg-gray-800 relative">
+                {/* Placeholder for project image */}
+                <div className="absolute inset-0 flex items-center justify-center text-gray-500">
+                  FireHub Image
+                </div>
+              </div>
+              <div className="p-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="text-xl font-semibold">FireHub</h3>
+                  <span className="text-xs bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 px-2 py-1 rounded font-medium">
+                    All Prime Access
+                  </span>
+                </div>
+                <p className="text-black/70 dark:text-white/70 mb-4">
+                  An AI-powered safety management platform designed to enhance
+                  workplace safety through intelligent monitoring and analysis.
+                  Leading frontend development with Angular, integrating AI
+                  capabilities to provide real-time safety insights and
+                  predictive analytics.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                    Angular
+                  </span>
+                  <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                    TypeScript
+                  </span>
+                  <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                    AI Integration
+                  </span>
+                  <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                    Bootstrap
+                  </span>
+                  <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
+                    NGRX/Signal Store
+                  </span>
+                </div>
+                <div className="flex gap-3 items-center">
+                  <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded font-medium">
+                    Frontend Lead
+                  </span>
+                </div>
+              </div>
+            </div>
+
             {/* OptimaConnect Project */}
             <div className="border border-black/10 dark:border-white/10 rounded-lg overflow-hidden">
               <div className="h-48 bg-gray-200 dark:bg-gray-800 relative">
@@ -138,13 +476,18 @@ export default async function Home() {
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">OptimaConnect</h3>
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="text-xl font-semibold">OptimaConnect</h3>
+                  <span className="text-xs bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded font-medium">
+                    Theywood
+                  </span>
+                </div>
                 <p className="text-black/70 dark:text-white/70 mb-4">
                   A robust data synchronization and analysis platform enabling
                   seamless data transfer from Lawcus to various cloud services.
                   Designed to organize and sync law firm data into Excel Power
                   BI format for advanced analysis with flexible subscription
-                  models.
+                  models. Developed as part of Theywood company projects.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
@@ -188,12 +531,18 @@ export default async function Home() {
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Pollinlink App</h3>
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="text-xl font-semibold">Pollinlink App</h3>
+                  <span className="text-xs bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded font-medium">
+                    Theywood
+                  </span>
+                </div>
                 <p className="text-black/70 dark:text-white/70 mb-4">
                   A comprehensive land tracking application that captures land
                   coordinates, entry points, hazards, and shelters, displaying
                   them interactively on a map. Built for optimized performance
-                  and state management.
+                  and state management. Developed as part of Theywood company
+                  projects.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded">
@@ -362,6 +711,31 @@ export default async function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education Section */}
+      <section id="education" className="py-16 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold mb-8">Education</h2>
+          <div className="border-l-4 border-blue-500 pl-6">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <div>
+                <h3 className="text-xl font-semibold">
+                  Higher National Diploma in Computer Science
+                </h3>
+                <p className="text-blue-500 font-medium">
+                  Imo State Polytechnic
+                </p>
+              </div>
+              <span className="text-black/70 dark:text-white/70 text-sm mt-1 md:mt-0">
+                2014 - 2016
+              </span>
+            </div>
+            <p className="text-black/70 dark:text-white/70">
+              Imo State, Nigeria
+            </p>
           </div>
         </div>
       </section>
