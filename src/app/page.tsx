@@ -1,6 +1,7 @@
 import { openSource } from "../config";
 import Header from "./components/Header";
 import ContactForm from "./components/ContactForm";
+import ScrollToTop from "./components/ScrollToTop";
 
 async function getGithubProfileData() {
   try {
@@ -31,9 +32,9 @@ export default async function Home() {
       />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-4">
+      <section className="pt-24 pb-16 md:pt-32 md:pb-24 px-2 sm:px-4">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight whitespace-nowrap">
             Hi, I&apos;m <span className="text-blue-500">GODBLESS</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-black/70 dark:text-white/70 max-w-2xl">
@@ -43,13 +44,13 @@ export default async function Home() {
           <div className="flex flex-wrap gap-4">
             <a
               href="#contact"
-              className="rounded-full bg-foreground text-background px-6 py-3 font-medium hover:bg-blue-600 transition-colors whitespace-nowrap"
+              className="rounded-full bg-foreground text-background px-6 py-3 font-medium hover:bg-blue-600 transition-colors whitespace-nowrap flex-shrink-0"
             >
               Get in touch
             </a>
             <a
               href="#projects"
-              className="rounded-full border border-black/10 dark:border-white/10 px-6 py-3 font-medium hover:bg-black/5 dark:hover:bg-white/5 transition-colors whitespace-nowrap"
+              className="rounded-full border border-black/10 dark:border-white/10 px-6 py-3 font-medium hover:bg-black/5 dark:hover:bg-white/5 transition-colors whitespace-nowrap flex-shrink-0"
             >
               View my work
             </a>
@@ -884,6 +885,9 @@ export default async function Home() {
           </p>
         </div>
       </footer>
+
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
     </div>
   );
 }
